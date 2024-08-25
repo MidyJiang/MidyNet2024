@@ -3,7 +3,7 @@ Corresponding repository for MSc Dissertation in DSIS (ID 34518509), Southampton
 
 None License has been allocated. 
 
-Copyright © [Year] [Midy Jiang]. All Rights Reserved.
+Copyright © **2024** [Midy Jiang]. All Rights Reserved.
 
 All code and files in this project are the intellectual property of the copyright holder. No part of this project may be reproduced, modified, distributed, displayed, performed, published, or used in any form or by any means without the express written permission of the copyright holder.
 
