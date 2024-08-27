@@ -127,15 +127,6 @@ def plot_return(labels, data, tick_step=1, group_gap=0.2, bar_gap=0.0, period='r
     bar_span = group_width / group_num
     bar_width = bar_span - bar_gap
 
-    # deal with outliers
-    data = pd.DataFrame(data)
-    data.loc[0] = data.loc[0].abs() * 1.75
-    for column in data.columns:
-        if data.loc[0, column] != data[column].max():   data.loc[0, column] = data[column].max() * 2.25
-    # print(data)
-    data = data.values.tolist()
-
-
     plt.figure(figsize=(7,6))
     for index, y in enumerate(data):
         bars = plt.bar(x + index * bar_span, y, bar_width, label=model_map[model_list[index]])
